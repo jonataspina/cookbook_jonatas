@@ -1,5 +1,7 @@
 <h1>Editar Receita</h1>
 
+<%= flash[:notice] %>
+
 <%= form_for @recipe do |f| %>
     <div>
         <%= f.label :title, 'Título' %>
